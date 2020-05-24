@@ -1,6 +1,6 @@
 # Rainloop for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/rainloop.svg)](https://dash.yunohost.org/appci/app/rainloop)  
+[![Integration level](https://dash.yunohost.org/integration/rainloop.svg)](https://dash.yunohost.org/appci/app/rainloop) ![](https://ci-apps.yunohost.org/ci/badges/rainloop.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/rainloop.maintain.svg)  
 [![Install Rainloop with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=rainloop)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -30,7 +30,7 @@ Go to http://DOMAIN.TLD/rainloop/app/?admin
 - The default login is : admin
 - The default password is : Password chosen during install
 
-- If you lost the admin password, you can retrieve it using ``sudo yunohost app settings rainloop password``
+- If you lost the admin password, you can retrieve it using ``sudo yunohost app setting rainloop password``
 
 Each user can add a remote carddav server from their own parameters interface.
 
